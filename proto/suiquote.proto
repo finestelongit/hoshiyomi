@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package suiquote;
+
+option go_package = "hoshimachi-grpc/proto";
+
+message SuiQuoteReq {
+}
+
+message SuiQuoteResp {
+    string quote = 1;
+
+    /* Quote type dictionary  
+    [0] -> Normal 
+    [1] -> Psycho
+    */
+    uint32 type = 2;
+
+    string source = 3;
+}
+
+service HoshimachiQuoteGen {
+    rpc GetRandomQuote(SuiQuoteReq) returns (SuiQuoteResp);
+}
