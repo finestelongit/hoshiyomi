@@ -2,11 +2,10 @@
 
 ## ✩°｡ A simple gRPC client to fetch data from Hoshimachi gRPC server, made with Go 💙
 
-![Hoshimachi Suisei](/docs/hoshimachi-cover.png)
+![Hoshimachi Suisei](/docs/hoshiyomi-cover.png)
 
 ## Information
-- Runs on localhost or server's IP address
-- Runs at port :22318 (Suisei's debut date, 22/3/18)
+This repo serves as a starting point to build gRPC client that connects to Hoshimachi. Feel free to modify the code to suit your requirements ^o^
 
 ## Setup 
 
